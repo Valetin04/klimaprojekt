@@ -40,6 +40,7 @@
   --background: #E4E4E4;
   --background-secondary: #fbfbfb;
   --font: 'Mulish', sans-serif;
+  --border-radius: 5px;
 }
 
 @media(prefers-color-scheme:dark) {
@@ -47,6 +48,5 @@
     --text-color-main: #fbfbfb;
     --background: #474748;
     --background-secondary: #292929;
-    --font: 'Mulish', sans-serif;
   }
 }
