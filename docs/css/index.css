@@ -37,3 +37,18 @@ h2 {
 p {
   text-align: justify;
 }
+
+@media(max-width: 420px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  .main-wrapper {
+    max-width: unset;
+    min-width: unset;
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+  }
+}
