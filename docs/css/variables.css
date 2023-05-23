@@ -4,7 +4,7 @@
     font-weight: 400;
     src: local('Material Icons'),
         local('MaterialIcons-Regular'),
-        url(klimaprojekt/assets/MaterialIcons-Regular.ttf) format('truetype');
+        url(/klimaprojekt/assets/MaterialIcons-Regular.ttf) format('truetype');
 }
 
 @font-face {
@@ -13,7 +13,7 @@
     font-weight: 400;
     src: local('Mulish'),
         local('Mulish'),
-        url(klimaprojekt/assets/Mulish-VariableFont_wght.ttf) format('truetype');
+        url(/klimaprojekt/assets/Mulish-VariableFont_wght.ttf) format('truetype');
 }
 
 .material-icons {
@@ -47,5 +47,6 @@
     --text-color-main: #fbfbfb;
     --background: #474748;
     --background-secondary: #292929;
+    --font: 'Mulish', sans-serif;
   }
 }
