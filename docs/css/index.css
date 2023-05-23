@@ -8,6 +8,15 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: var(--main);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .main-wrapper {
   max-width: 1000px;
   min-width: 90%;
