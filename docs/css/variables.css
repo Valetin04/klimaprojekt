@@ -37,7 +37,7 @@
 
 ::root {
   --text-color-main: #292929;
-  --background-color: #E4E4E4;
+  --background: #E4E4E4;
   --background-secondary: #fbfbfb;
   --font: 'Mulish', sans-serif;
 }
@@ -45,7 +45,7 @@
 @media(prefers-color-scheme:dark) {
   ::root {
     --text-color-main: #fbfbfb;
-    --background-color: #474748;
+    --background: #474748;
     --background-secondary: #292929;
   }
 }
