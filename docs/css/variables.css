@@ -35,7 +35,7 @@
     font-feature-settings: 'liga';
 }
 
-::root {
+:root {
   --text-color-main: #292929;
   --background: #E4E4E4;
   --background-secondary: #fbfbfb;
@@ -43,7 +43,7 @@
 }
 
 @media(prefers-color-scheme:dark) {
-  ::root {
+  :root {
     --text-color-main: #fbfbfb;
     --background: #474748;
     --background-secondary: #292929;
