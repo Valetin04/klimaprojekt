@@ -10,7 +10,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--main);
+  color: var(--main-secondary);
 }
 
 a:hover {
@@ -19,8 +19,8 @@ a:hover {
 
 .main-wrapper {
   max-width: 1000px;
-  min-width: 90%;
-  padding-top: 50px;
+  min-width: calc(90% - 100px);
+  padding-top: 50px 50px 0px 50px;
 }
 
 h1 {
@@ -32,4 +32,8 @@ h1 {
 h2 {
   border-bottom: 1.5px solid var(--background-secondary);
   font-size: 2.5rem;
+}
+
+p {
+  text-align: justify;
 }
