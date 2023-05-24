@@ -37,10 +37,10 @@
 
 :root {
   --text-color-main: #292929;
-  --background: #E4E4E4;
-  --background-secondary: #fbfbfb;
-  --main: #77DD77;
-  --main-secondary: #539b53;
+  --background: #f5f5f5;
+  --background-secondary: #ffffff;
+  --main: #34af72;
+  --main-secondary: #208251;
   --font: 'Mulish', sans-serif;
   --border-radius: 5px;
 }
@@ -48,7 +48,7 @@
 @media(prefers-color-scheme:dark) {
   :root {
     --text-color-main: #fbfbfb;
-    --background: #383838;
-    --background-secondary: #292929;
+    --background: #353535;
+    --background-secondary: #232323;
   }
 }

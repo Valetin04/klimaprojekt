@@ -20,7 +20,7 @@ a:hover {
 .main-wrapper {
   max-width: 1000px;
   min-width: calc(90% - 100px);
-  padding: 50px 50px 0px 50px;
+  padding: 50px;
 }
 
 h1 {
