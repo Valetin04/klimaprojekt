@@ -13,6 +13,7 @@
 body {
     /*background: linear-gradient(to bottom, var(--main-secondary) 150px, var(--background) 150px);*/
     background-color: var(--background);
+    color: var(--text-color-main);
     font-family: var(--font);
     width: 100%;
     display: flex;
