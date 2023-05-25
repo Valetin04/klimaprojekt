@@ -86,7 +86,7 @@ p {
 }
 
 .picture-with-caption > figcaption > a {
-    color: #ffa500;
+    color: var(--text-color-secondary);
 }
 
 .picture-with-caption.right {
