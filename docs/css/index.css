@@ -22,6 +22,7 @@ body {
   scrollbar-color: var(--main) var(--background);
 }
 
+figure,
 img {
   object-fit: contain;
   width: 400px;
