@@ -53,16 +53,17 @@ p {
     text-align: justify;
 }
 
-  .picture-with-caption {
+.picture-with-caption {
     height: fit-content;
     margin: 15px;
+    width: 400px;
+    max-width: calc(100% - 10px);
 }
 
 .picture-with-caption > img {
     margin: 0px 0px 10px 0px;
     object-fit: contain;
-    width: 400px;
-    max-width: calc(100% - 10px);
+    width: 100%;
 }
 
 .picture-with-caption > figcaption {
@@ -90,5 +91,9 @@ p {
         min-width: unset;
         width: calc(100% - 40px);
         padding: 20px;
+    }
+    .picture-with-caption {
+        margin: 0;
+        width: 100%;
     }
 }
