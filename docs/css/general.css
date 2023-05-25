@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-    color: var--sub-header-color
+    color: var(--sub-header-color);
 }
   
 p {
@@ -70,6 +70,7 @@ p {
     width: 400px;
     max-width: calc(100% - 10px);
     background-color: var(--main);
+    border-radius: var(--border-radius);
 }
 
 .picture-with-caption > img {
@@ -82,11 +83,10 @@ p {
 .picture-with-caption > figcaption {
     font-size: 1.1rem;
     /*color: var(--text-color-secondary);*/
-    border-radius: var(--border-radius);
 }
 
 .picture-with-caption > figcaption > a {
-    color: pink;
+    color: #ffa500;
 }
 
 .picture-with-caption.right {
