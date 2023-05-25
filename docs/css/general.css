@@ -41,12 +41,12 @@ a:hover {
   
 h1 {
     margin-top: 20px;
-    border-bottom: 3px solid var(--main);
+    border-bottom: 4px solid var(--main);
     font-size: 3rem;
 }
   
 h2 {
-    border-bottom: 1.5px solid var(--main);
+    border-bottom: 2px solid var(--main);
     font-size: 2.5rem;
 }
 
@@ -58,9 +58,6 @@ p {
     text-align: justify;
 }
 
-img {
-    border-radius: var(--border-radius);
-}
 
 .paragraph-wrapper {
     overflow: hidden;
@@ -69,19 +66,27 @@ img {
 .picture-with-caption {
     height: fit-content;
     margin: 15px;
+    padding: 15px;
     width: 400px;
     max-width: calc(100% - 10px);
+    background-color: var(--main);
 }
 
 .picture-with-caption > img {
     margin: 0px 0px 10px 0px;
     object-fit: contain;
     width: 100%;
+    border-radius: var(--border-radius);
 }
 
 .picture-with-caption > figcaption {
     font-size: 1.1rem;
-    color: var(--text-color-secondary);
+    /*color: var(--text-color-secondary);*/
+    border-radius: var(--border-radius);
+}
+
+.picture-with-caption > figcaption > a {
+    color: pink;
 }
 
 .picture-with-caption.right {
