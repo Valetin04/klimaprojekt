@@ -42,7 +42,7 @@ a:hover {
 
 #main-wrapper {
   max-width: 800px;
-  min-width: calc(90% - 100px);
+  width: calc(90% - 100px);
   padding: 50px;
 }
 
