@@ -95,5 +95,7 @@ p {
     .picture-with-caption {
         margin: 0;
         width: 100%;
+        max-width: unset;
+        float: unset;
     }
 }
