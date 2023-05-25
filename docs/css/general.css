@@ -69,7 +69,7 @@ p {
     margin: 15px;
     padding: 15px;
     width: 400px;
-    max-width: calc(100% - 10px);
+    max-width: calc(100% - 30px);
     background-color: var(--main);
     border-radius: calc(var(--border-radius) + 15px);
 }
@@ -83,7 +83,6 @@ p {
 
 .picture-with-caption > figcaption {
     font-size: 1.1rem;
-    /*color: var(--text-color-secondary);*/
 }
 
 .picture-with-caption > figcaption > a {
@@ -113,7 +112,7 @@ p {
     }
     .picture-with-caption {
         margin: 0;
-        width: 100%;
+        width: calc(100% - 30px);
         max-width: unset;
         float: unset;
     }

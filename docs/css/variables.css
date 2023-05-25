@@ -50,7 +50,7 @@
 @media(prefers-color-scheme:dark) {
   :root {
     --text-color-main: #fbfbfb;
-    --text-color-secondary: #c4c4c4;
+    --text-color-secondary: #d3d3d3;
     --background: #353535;
     --background-secondary: #232323;
   }
