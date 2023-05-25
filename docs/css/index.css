@@ -15,3 +15,7 @@
 .picture-with-caption.right {
     float: right;
 }
+
+.picture-with-caption.left {
+    float: left;
+}

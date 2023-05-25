@@ -41,7 +41,7 @@
   }
   
   #main-wrapper {
-    max-width: 800px;
+    max-width: 1000px;
     width: calc(90% - 100px);
     padding: 50px;
   }
