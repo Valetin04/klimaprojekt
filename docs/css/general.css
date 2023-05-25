@@ -40,7 +40,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.main-wrapper {
+#main-wrapper {
   max-width: 800px;
   min-width: calc(90% - 100px);
   padding: 50px;
@@ -68,10 +68,10 @@ p {
   h2 {
     font-size: 1.7rem;
   }
-  .main-wrapper {
+  #main-wrapper {
     max-width: unset;
     min-width: unset;
-    width: 100%;
+    width: calc(100% - 40px);
     padding: 20px;
   }
 }
