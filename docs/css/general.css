@@ -53,6 +53,10 @@ p {
     text-align: justify;
 }
 
+.paragraph-wrapper {
+    overflow: hidden;
+}
+
 .picture-with-caption {
     height: fit-content;
     margin: 15px;
