@@ -20,6 +20,7 @@ body {
   margin: 0;
   overflow-y: scroll;
   scrollbar-color: var(--main) var(--background);
+  font-size: 1.1rem;
 }
 
 figure,
