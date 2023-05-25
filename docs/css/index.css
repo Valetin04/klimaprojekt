@@ -3,6 +3,10 @@
     margin: 15px;
 }
 
+.picture-with-caption > img {
+    margin: 0px 0px 10px 0px;
+}
+
 .picture-with-caption > figcaption {
     font-size: 1.1rem;
     color: var(--text-color-secondary);
