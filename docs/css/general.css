@@ -104,6 +104,19 @@ p {
 .picture-with-caption.left {
     float: left;
 }
+
+.picture-with-caption > .image-opened {
+    width: calc(100vw - 30px);
+    height: calc(100vh - 30px);
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+
+.picture-with-caption > img {
+    max-height: calc(100vh - 80px);
+}
   
 @media(max-width: 420px) {
     h1 {
