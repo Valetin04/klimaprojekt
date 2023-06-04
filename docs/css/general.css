@@ -107,6 +107,7 @@ p {
 }
 
 .picture-with-caption.image-opened {
+    max-width: unset;
     width: calc(100vw - 30px);
     height: calc(100vh - 30px);
     position: fixed;
@@ -117,7 +118,7 @@ p {
 }
 
 .picture-with-caption.image-opened > img {
-    max-height: calc(100vh - 80px);
+    max-height: calc(100vh - 90px);
 }
   
 @media(max-width: 420px) {
