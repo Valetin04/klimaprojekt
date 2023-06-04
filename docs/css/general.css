@@ -60,7 +60,7 @@ h2 {
 }
 
 h3 {
-    color: var(--sub-header-color);
+    color: var(--main-secondary);
 }
   
 p {
@@ -112,6 +112,7 @@ p {
     left: 0;
     top: 0;
     margin: 0;
+    border: none;
 }
 
 .picture-with-caption.image-opened > img {
