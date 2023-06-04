@@ -36,20 +36,25 @@
 }
 
 :root {
-  --text-color-main: #292929;
-  --text-color-secondary: #494949;
-  --text-color-figcaption: #292929;
-  --background: #ffffff;
   --main: #34af72;
   --main-secondary: #3fd58a;
   --font: 'Mulish', sans-serif;
   --border-radius: 5px;
+  --text-color-figcaption: #292929;
 }
 
-@media(prefers-color-scheme:dark) {
+/* Themes */
+
+:root {
+  --text-color-main: #fbfbfb;
+  --text-color-secondary: #d3d3d3;
+  --background: #353535;
+}
+
+@media(prefers-color-scheme:light) {
   :root {
-    --text-color-main: #fbfbfb;
-    --text-color-secondary: #d3d3d3;
-    --background: #353535;
+    --text-color-main: #292929;
+    --text-color-secondary: #494949;
+    --background: #ffffff;
   }
 }
