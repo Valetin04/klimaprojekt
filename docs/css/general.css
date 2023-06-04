@@ -91,10 +91,13 @@ p {
 
 .picture-with-caption > figcaption {
     font-size: 1.1rem;
+    color: var(--text-color-figcaption);
 }
 
 .picture-with-caption > figcaption > a {
-    color: var(--text-color-secondary);
+    color: var(--text-color-figcaption);
+    opacity: 80%;
+    text-decoration: underline;
 }
 
 .picture-with-caption.right {
