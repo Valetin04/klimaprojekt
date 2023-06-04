@@ -97,7 +97,6 @@ p {
 .picture-with-caption > figcaption > a {
     color: var(--text-color-figcaption);
     opacity: 80%;
-    text-decoration: underline;
 }
 
 .picture-with-caption.right {
