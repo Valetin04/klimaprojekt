@@ -114,7 +114,7 @@ p {
     left: 0;
     top: 0;
     margin: 0;
-    border: none;
+    border-radius: 0;
 }
 
 .picture-with-caption.image-opened > img {
